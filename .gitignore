@@ -1,5 +1,8 @@
+#可以下载，不需要同步到git
 node_modules
+#env文件，配置文件、密码等数据
 .env
+.env.enc
 
 # Hardhat files
 /cache
