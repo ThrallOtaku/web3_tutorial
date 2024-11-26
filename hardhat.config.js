@@ -9,7 +9,7 @@ const SEPOLIA_URL=process.env.SEPOLIA_URL;
  //metamask 的私钥。测试账户
 const PRIVATE_KEY=process.env.PRIVATE_KEY;
 const API_KEY= process.env.API_KEY;
-/**import('hardhat/config').HardhatUserConfig */
+/** @type 明确指定注释对象的类型 import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.27",
 
